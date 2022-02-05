@@ -1,15 +1,8 @@
-//
-//  ViewController.swift
-//  TipperApp
-//
-//  Created by Mac on 05.02.2022.
-//
 
 import UIKit
 
 class ViewController: UIViewController, UITextFieldDelegate {
 
-    
     @IBOutlet weak var totalBillTextField: UITextField!
     @IBOutlet weak var tipTextField: UITextField!
     @IBOutlet weak var totalTextField: UITextField!
@@ -70,6 +63,4 @@ class ViewController: UIViewController, UITextFieldDelegate {
     func textField(_ textField: UITextField, shouldChangeCharactersIn shouldChangeCharacterInRange: NSRange, replacementString string: String) -> Bool {
         return formater.number(from: "\(textField.text ?? "0.0")\(string)") != nil
     }
-    
 }
-
