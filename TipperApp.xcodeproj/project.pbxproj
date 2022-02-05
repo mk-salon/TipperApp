@@ -13,6 +13,14 @@
 		2E90455D27AE6B8E00DCC813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E90455B27AE6B8E00DCC813 /* Main.storyboard */; };
 		2E90455F27AE6B9100DCC813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E90455E27AE6B9100DCC813 /* Assets.xcassets */; };
 		2E90456227AE6B9100DCC813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E90456027AE6B9100DCC813 /* LaunchScreen.storyboard */; };
+		2E90456B27AE7E6A00DCC813 /* Dark_BG.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2E90456927AE7E6A00DCC813 /* Dark_BG.pdf */; };
+		2E90456C27AE7E6A00DCC813 /* Light_BG.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 2E90456A27AE7E6A00DCC813 /* Light_BG.pdf */; };
+		2E90456F27AEA9F500DCC813 /* dark.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E90456D27AEA9F400DCC813 /* dark.jpg */; };
+		2E90457027AEA9F500DCC813 /* light.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E90456E27AEA9F500DCC813 /* light.jpg */; };
+		2E90457327AEACB600DCC813 /* dark1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E90457127AEACB600DCC813 /* dark1.jpg */; };
+		2E90457427AEACB600DCC813 /* light1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E90457227AEACB600DCC813 /* light1.jpg */; };
+		2E90457727AEAE3E00DCC813 /* dark2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E90457527AEAE3E00DCC813 /* dark2.png */; };
+		2E90457827AEAE3E00DCC813 /* light2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E90457627AEAE3E00DCC813 /* light2.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		2E90455E27AE6B9100DCC813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E90456127AE6B9100DCC813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E90456327AE6B9100DCC813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E90456927AE7E6A00DCC813 /* Dark_BG.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Dark_BG.pdf; sourceTree = "<group>"; };
+		2E90456A27AE7E6A00DCC813 /* Light_BG.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Light_BG.pdf; sourceTree = "<group>"; };
+		2E90456D27AEA9F400DCC813 /* dark.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dark.jpg; sourceTree = "<group>"; };
+		2E90456E27AEA9F500DCC813 /* light.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = light.jpg; sourceTree = "<group>"; };
+		2E90457127AEACB600DCC813 /* dark1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dark1.jpg; sourceTree = "<group>"; };
+		2E90457227AEACB600DCC813 /* light1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = light1.jpg; sourceTree = "<group>"; };
+		2E90457527AEAE3E00DCC813 /* dark2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dark2.png; sourceTree = "<group>"; };
+		2E90457627AEAE3E00DCC813 /* light2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = light2.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,14 @@
 		2E90455427AE6B8E00DCC813 /* TipperApp */ = {
 			isa = PBXGroup;
 			children = (
+				2E90457527AEAE3E00DCC813 /* dark2.png */,
+				2E90457627AEAE3E00DCC813 /* light2.jpg */,
+				2E90456D27AEA9F400DCC813 /* dark.jpg */,
+				2E90457127AEACB600DCC813 /* dark1.jpg */,
+				2E90457227AEACB600DCC813 /* light1.jpg */,
+				2E90456E27AEA9F500DCC813 /* light.jpg */,
+				2E90456927AE7E6A00DCC813 /* Dark_BG.pdf */,
+				2E90456A27AE7E6A00DCC813 /* Light_BG.pdf */,
 				2E90455527AE6B8E00DCC813 /* AppDelegate.swift */,
 				2E90455727AE6B8E00DCC813 /* SceneDelegate.swift */,
 				2E90455927AE6B8E00DCC813 /* ViewController.swift */,
@@ -125,9 +149,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E90457027AEA9F500DCC813 /* light.jpg in Resources */,
+				2E90457827AEAE3E00DCC813 /* light2.jpg in Resources */,
 				2E90456227AE6B9100DCC813 /* LaunchScreen.storyboard in Resources */,
+				2E90457727AEAE3E00DCC813 /* dark2.png in Resources */,
+				2E90456F27AEA9F500DCC813 /* dark.jpg in Resources */,
+				2E90457327AEACB600DCC813 /* dark1.jpg in Resources */,
+				2E90457427AEACB600DCC813 /* light1.jpg in Resources */,
+				2E90456B27AE7E6A00DCC813 /* Dark_BG.pdf in Resources */,
 				2E90455F27AE6B9100DCC813 /* Assets.xcassets in Resources */,
 				2E90455D27AE6B8E00DCC813 /* Main.storyboard in Resources */,
+				2E90456C27AE7E6A00DCC813 /* Light_BG.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +324,11 @@
 				DEVELOPMENT_TEAM = AFNMHN5D39;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TipperApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TipperApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,9 +354,11 @@
 				DEVELOPMENT_TEAM = AFNMHN5D39;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TipperApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TipperApp;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UILaunchStoryboardName = Main;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
